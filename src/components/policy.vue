@@ -69,7 +69,7 @@
 }
 .body p {
     font-size: 18px;
-    font-weight: lighter;
+    /* font-weight: lighter; */
     text-align: left;
 }
 .body p b {
@@ -110,7 +110,7 @@
     }
     .body p {
         font-size: 18px;
-        font-weight: lighter;
+        /* font-weight: 4; */
         text-align: left;
         /* width: 280px; */
     }
