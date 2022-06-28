@@ -448,12 +448,20 @@
 .dropDown-move {
   transition: all 0.9s ease;
 }
+.component {
+    animation-name: fade-in;
+    animation-duration: 0.8s;
+}
 /* 
 section p:nth-child(1){
     position: relative;
 } */
 section p:nth-child(1):hover {
     transform: scale(1.02);
+}
+@keyframes fade-in {
+    from{opacity: 0;}
+    to {opacity: 1;}
 }
 
 @media screen and (max-width: 700px){
