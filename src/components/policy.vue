@@ -475,7 +475,7 @@ section p:nth-child(1):hover {
     }
     .col-md-8{
         overflow-x: hidden;
-        padding: 18px;
+        padding: 28px;
     }
     .header{
         text-align: center;
