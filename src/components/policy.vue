@@ -8,7 +8,7 @@
                     <div class="header">
                         <h5>PRIVACY POLICY</h5>
                         <h1>Our Commitment to Protecting Your Privacy</h1>
-                        <h1>UPDATED AT</h1>
+                        <h1>LAST UPDATED</h1>
                         <h5>May 25, 2022</h5>
                     </div><br>
                     <br>
@@ -26,7 +26,7 @@
                             our Terms of Service.
 
                         </p><br>
-
+                        
                         <section>
                             <p @click="show1 = !show1"><b>Definitions and key terms <img src="../assets/arrow.png" class="arrow" :class="show1 ? 'rotate' : 'rotateBack'" > </b></p><br>
 
@@ -153,6 +153,166 @@
                             </p>
                         </section>
 
+                        <section>
+                            <p @click="show8 = !show8"><b>How Do We Protect Your Information?   <img src="../assets/arrow.png" class="arrow" :class="show8 ? 'rotate' : 'rotateBack'" ></b></p><br>
+                            <p v-show="show8">
+                                We implement a variety of security measures to maintain the safety of your personal information 
+                                when you place an order or enter, submit, or access your personal information. We offer the use 
+                                of a secure server. All supplied sensitive/credit information is transmitted via Secure Socket 
+                                Layer (SSL) technology and then encrypted into our Payment gateway providers database only to be 
+                                accessible by those authorized with special access rights to such systems, and are required to keep 
+                                the information confidential. After a transaction, your private information (credit cards, social 
+                                security numbers, financials, etc.) is never kept on file. We cannot, however, ensure or warrant the 
+                                absolute security of any information you transmit to check retail or guarantee that your information 
+                                on the Service may not be accessed, disclosed, altered, or destroyed by a breach of any of our physical, 
+                                technical, or managerial safeguards.
+                            </p>
+                        </section>
+
+                        <section>
+                            <p @click="show9 = !show9"><b>Could my information be transferred to other countries?  <img src="../assets/arrow.png" class="arrow" :class="show9 ? 'rotate' : 'rotateBack'" ></b></p><br>
+                            <p v-show="show9">
+                                check retail is incorporated in Nigeria. Information collected via our website, through direct interactions 
+                                with you, or from use of our help services may be transferred from time to time to our offices or personnel, 
+                                or to third parties, located throughout the world, and may be viewed and hosted anywhere in the world, including 
+                                countries that may not have laws of general applicability regulating the use and transfer of such data. 
+                                To the fullest extent allowed by applicable law, by using any of the above, you voluntarily consent to the 
+                                trans-border transfer and hosting of such information.
+                            </p>
+                        </section>
+
+                        <section>
+                            <p @click="show10 = !show10"><b>Is the information collected through the check retail Service secure?   <img src="../assets/arrow.png" class="arrow" :class="show10 ? 'rotate' : 'rotateBack'" ></b></p><br>
+                            <p v-show="show10">
+                                We take precautions to protect the security of your information. We have physical, 
+                                electronic, and managerial procedures to help safeguard, prevent unauthorized access, 
+                                maintain data security, and correctly use your information. However, neither people nor security 
+                                systems are foolproof, including encryption systems. In addition, people can commit intentional crimes, 
+                                make mistakes or fail to follow policies. Therefore, while we use reasonable efforts to protect your 
+                                personal information, we cannot guarantee its absolute security. If applicable law imposes any 
+                                non-disclaimable duty to protect your personal information, you agree that intentional misconduct 
+                                will be the standards used to measure our compliance with that duty.
+                            </p>
+                        </section>
+
+                        <p>
+                            <b>Personnel</b><br><br>
+                            If you are a check retail worker or applicant, we collect information you voluntarily provide to us. 
+                            We use the information collected for Human Resources purposes in order to administer benefits to workers and 
+                            screen applicants.<br><br>
+
+                            You may contact us in order to (1) update or correct your information, (2) change your preferences with respect to 
+                            communications and other information you receive from us, or (3) receive a record of the information we have 
+                            relating to you. Such updates, corrections, changes and deletions will have no effect on other information that 
+                            we maintain, or information that we have provided to third parties in accordance with this Privacy Policy prior 
+                            to such update, correction, change or deletion.
+                        </p><br><br>
+
+                        <p>
+                            <b>Affiliates</b><br><br>
+                            We may disclose information (including personal information) about you to our Corporate Affiliates. 
+                            For purposes of this Privacy Policy, "Corporate Affiliate" means any person or entity which directly or 
+                            indirectly controls, is controlled by or is under common control with check retail, whether by ownership 
+                            or otherwise. Any information relating to you that we provide to our Corporate Affiliates will be treated 
+                            by those Corporate Affiliates in accordance with the terms of this Privacy Policy.
+                        </p><br><br>
+
+                        <p>
+                            <b>Governing Law</b><br><br>
+                            This Privacy Policy is governed by the laws of Nigeria without regard to its conflict of laws provision. 
+                            You consent to the exclusive jurisdiction of the courts in connection with any action or dispute arising 
+                            between the parties under or in connection with this Privacy Policy except for those individuals who may have 
+                            rights to make claims under Privacy Shield, or the Swiss-US framework.<br><br>
+
+                            The laws of Nigeria, excluding its conflicts of law rules, shall govern this Agreement and your use of the app. 
+                            Your use of the app may also be subject to other local, state, national, or international laws.<br><br>
+
+                            By using check retail or contacting us directly, you signify your acceptance of this Privacy Policy. If you do not 
+                            agree to this Privacy Policy, you should not engage with our website, or use our services. Continued use of the 
+                            website, direct engagement with us, or following the posting of changes to this Privacy Policy that do not 
+                            significantly affect the use or disclosure of your personal information will mean that you accept those changes.
+                        </p><br><br>
+
+                        <p>
+                            <b>Your Consent</b><br><br>
+                            We've updated our Privacy Policy to provide you with complete transparency into what is being set 
+                            when you visit our site and how it's being used. By using our app, registering an account, or 
+                            making a purchase, you hereby consent to our Privacy Policy and agree to its terms.
+                        </p><br><br>
+
+                        <p>
+                            <b>Payment Details</b><br><br>
+                            In respect to any credit card or other payment processing details you have provided us, 
+                            we commit that this confidential information will be stored in the most secure manner possible.
+                        </p><br><br>
+
+                        <p>
+                            <b>Kids' Privacy</b><br><br>
+                            We collect information from kids under the age of 13 just to better our services. 
+                            If You are a parent or guardian and You are aware that Your child has provided Us 
+                            with Personal Data without your permission, please contact Us. If We become aware that 
+                            We have collected Personal Data from anyone under the age of 13 without verification of 
+                            parental consent, We take steps to remove that information from Our servers.
+                        </p><br><br>
+
+                        <p>
+                            <b>Changes To Our Privacy Policy</b><br><br>
+                            We may change our Service and policies, and we may need to make changes to this Privacy 
+                            Policy so that they accurately reflect our Service and policies. Unless otherwise required by law, 
+                            we will notify you (for example, through our Service) before we make changes to this Privacy 
+                            Policy and give you an opportunity to review them before they go into effect. Then, if you 
+                            continue to use the Service, you will be bound by the updated Privacy Policy. If you do not want 
+                            to agree to this or any updated Privacy Policy, you can delete your account.
+                        </p><br><br>
+
+                        <p>
+                            <b>Third-Party Services</b><br><br>
+                            We may display, include or make available third-party content (including data, information, 
+                            applications and other products services) or provide links to third-party websites or services 
+                            ("Third- Party Services"). You acknowledge and agree that check retail shall not be responsible 
+                            for any Third-Party Services, including their accuracy, completeness, timeliness, validity, copyright 
+                            compliance, legality, decency, quality or any other aspect thereof. check retail does not assume 
+                            and shall not have any liability or responsibility to you or any other person or entity for any 
+                            Third-Party Services.<br><br>
+
+                            Third-Party Services and links thereto are provided solely as a convenience to you and you 
+                            access and use them entirely at your own risk and subject to such third parties' terms and conditions.
+                        </p><br><br>
+
+                        <p>
+                            <b>Tracking Technologies</b><br><br>
+                            -Google Maps API:<br><br>
+
+                            Google Maps API is a robust tool that can be used to create a custom map, a searchable map, check-in functions, 
+                            display live data synching with location, plan routes, or create a mashup just to name a few.
+                            Google Maps API may collect information from You and from Your Device for security purposes.
+                            Google Maps API collects information that is held in accordance with its Privacy Policy
+                        </p><br><br>
+
+                        <p>
+                            <b>What is personal data?</b><br><br>
+                            Any data that relates to an identifiable or identified individual. GDPR covers a broad 
+                            spectrum of information that could be used on its own, or in combination with other pieces of 
+                            information, to identify a person. Personal data extends beyond a person’s name or email address. 
+                            Some examples include financial information, political opinions, genetic data, biometric data, 
+                            IP addresses, physical address, sexual orientation, and ethnicity.
+                        </p><br><br>
+
+                        <p>
+                            <b>The Data Protection Principles include requirements such as:</b><br><br>
+                                -Personal data collected must be processed in a fair, legal, and transparent way and should only be used in a way that a person would reasonably expect.<br>
+                                -Personal data should only be collected to fulfil a specific purpose and it should only be used for that purpose. Organizations must specify why they need the personal data when they collect it.<br>
+                                -Personal data should be held no longer than necessary to fulfil its purpose.<br>
+                                -People covered by the GDPR have the right to access their own personal data. They can also request a copy of their data, and that their data be updated, deleted, restricted, or moved to another organization.<br>
+                        </p><br><br>
+
+                        <p>
+                            <b>Contact Us</b>
+                            Don't hesitate to contact us if you have any questions.<br><br>
+
+                            -Via Email:  <b>hello.paddle@gmail.com</b><br><br>
+                            -Via Phone Number:  <b>08149734622</b>
+                        </p>
 
 
 
@@ -176,7 +336,9 @@
         show5: false,
         show6: false,
         show7: false,
-        show8: false
+        show8: false,
+        show9: false,
+        show10: false
     }
   }
   
@@ -184,6 +346,9 @@
 </script>
 
 <style scoped>
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:wght@300;500;600&display=swap');
+
 .header {
     color: red;
 }
@@ -205,6 +370,7 @@
 }
 .body p b {
     font-weight: 700;
+    font-family: poppins;
 }
 .col-md-8 {
     text-align: center;
