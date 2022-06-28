@@ -448,10 +448,10 @@
 .dropDown-move {
   transition: all 0.9s ease;
 }
-.component {
+/* .component {
     animation-name: fade-in;
     animation-duration: 0.8s;
-}
+} */
 /* 
 section p:nth-child(1){
     position: relative;
