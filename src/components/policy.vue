@@ -187,9 +187,9 @@
 .header {
     color: red;
 }
-.header h5 {
+/* .header h5 {
     font-weight: lighter;
-}
+} */
 .header h1 {
     font-weight: bolder;
 }
