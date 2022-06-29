@@ -394,7 +394,7 @@
     color: rgb(175, 5, 5);
 }
 .body p {
-    font-size: 18px;
+    font-size: 16px;
     /* font-weight: lighter; */
     text-align: left;
 }
@@ -451,6 +451,7 @@
 .component {
     animation-name: fade-in;
     animation-duration: 0.8s;
+    color: black;
 }
 /* 
 section p:nth-child(1){
@@ -493,10 +494,13 @@ section p:nth-child(1):hover {
 
     }
     .body p {
-        font-size: 18px;
+        font-size: 16px;
         /* font-weight: 4; */
         text-align: left;
         /* width: 280px; */
+    }
+    section p:nth-child(1){
+        max-width: 300px;
     }
 }
 
