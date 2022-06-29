@@ -448,10 +448,10 @@
 .dropDown-move {
   transition: all 0.9s ease;
 }
-.component {
+/* .component {
     animation-name: fade-in;
     animation-duration: 0.8s;
-}
+} */
 /* 
 section p:nth-child(1){
     position: relative;
@@ -473,9 +473,9 @@ section p:nth-child(1):hover {
         display: flex;
         overflow-x: hidden;
     }
-    .col-md-10{
+    .col-md-8{
         overflow-x: hidden;
-        padding: 22px;
+        padding: 28px;
     }
     .header{
         text-align: center;
