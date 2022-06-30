@@ -402,7 +402,7 @@
     font-weight: 700;
     font-family: poppins;
 }
-.col-md-8 {
+.col-md-10 {
     text-align: center;
     padding: 40px;
 }
@@ -410,7 +410,7 @@
     height: 16px;
     width: 16px;
     float: right;
-    margin-right: 5px;
+    margin-right: 3px;
 }
 .rotate {
     transform: rotate(90deg);
@@ -500,7 +500,11 @@ section p:nth-child(1):hover {
         /* width: 280px; */
     }
     section p:nth-child(1){
-        max-width: 300px;
+        max-width: 390px;
+        
+    }
+    img{
+        transform: translateY(20px);
     }
 }
 
