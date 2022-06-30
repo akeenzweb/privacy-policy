@@ -3,11 +3,11 @@
         <!-- <button class="btn btn-primary">click</button> -->
         <div class="container">
             <div class="row">
-                <div class="col-md-1"></div>
-                <div class="col-md-10">
+                <div class="col-md-0"></div>
+                <div class="col-md-12">
                     <div class="header">
                         <h5>PRIVACY POLICY</h5>
-                        <h1>Our Commitment to Protecting Your Privacy</h1>
+                        <h1>Our Allegiance to Protecting Your Privacy</h1>
                         <h1>LAST UPDATED</h1>
                         <h5>May 25, 2022</h5>
                     </div><br>
@@ -18,6 +18,38 @@
                             Check retail (“we,” “our,” or “us”) is committed to protecting your privacy. 
                             This Privacy Policy explains how your personal information is collected, used, 
                             and disclosed by check retail.<br><br>
+                        </p>
+
+                        <div class="content">
+                            <h5>Contents:</h5>
+                            <ol>
+                                <li><a href="#scroll-1">Definitions and key terms</a></li>
+                                <li><a href="#scroll-2">What Information Do We Collect?</a></li>
+                                <li><a href="#scroll-3">How Do We Use The Information We Collect?</a></li>
+                                <li><a href="#scroll-4">When does check retail use end user information from third parties?</a></li>
+                                <li><a href="#scroll-5">When does check retail use customer information from third parties?</a></li>
+                                <li><a href="#scroll-6">Do we share the information we collect with third parties?</a></li>
+                                <li><a href="#scroll-7">Where and when is information collected from customers and end users?</a></li>
+                                <li><a href="#scroll-8">How Do We Protect Your Information?</a></li>
+                                <li><a href="#scroll-9">Could my information be transferred to other countries?</a></li>
+                                <li><a href="#scroll-10">Is the information collected through the check retail Service secure?</a></li>
+                                <li><a href="#scroll-11">Personnel</a></li>
+                                <li><a href="#scroll-12">Affiliates</a></li>
+                                <li><a href="#scroll-13">Governing Law</a></li>
+                                <li><a href="#scroll-14">Your Consent</a></li>
+                                <li><a href="#scroll-15">Payment Details</a></li>
+                                <li><a href="#scroll-16">Kids' Privacy</a></li>
+                                <li><a href="#scroll-17">Changes To Our Privacy Policy</a></li>
+                                <li><a href="#scroll-18">Third-Party Services</a></li>
+                                <li><a href="#scroll-19">Tracking Technologies</a></li>
+                                <li><a href="#scroll-20">What is personal data?</a></li>
+                                <li><a href="#scroll-21">The Data Protection Principles include requirements such as:</a></li>
+                                <li><a href="#scroll-22">Contact Us</a></li>
+                            </ol>
+                        </div>
+
+                        <p>
+                            
 
                             This Privacy Policy applies to our website, and its associated subdomains (collectively, 
                             our “Service”) alongside our application, check retail. By accessing or using our Service, 
@@ -27,7 +59,7 @@
 
                         </p><br>
                         
-                        <section>
+                        <section id="scroll-1">
                             <p @click="show1 = !show1"><b>Definitions and key terms <img src="../assets/arrow.png" class="arrow" :class="show1 ? 'rotate' : 'rotateBack'" > </b></p><br>
 
                             <transition name="dropDown" mode="out-in" appear >
@@ -50,19 +82,19 @@
                         
                         </section>
 
-                        <section>
+                        <section id="scroll-2">
                             <p @click="show2 = !show2"><b>What Information Do We Collect?  <img src="../assets/arrow.png" class="arrow" :class="show2 ? 'rotate' : 'rotateBack'" ></b></p><br>
                             <transition name="dropDown" mode="out-in" appear >
                                 <p v-show="show2">
                                 We collect information from you when you visit our app, register on our site, place an order, 
                                 subscribe to our newsletter, respond to a survey or fill out a form.<br><br>
 
-                                -Name / Username<br>
-                                -Phone Numbers<br>
-                                -Email Addresses<br>
-                                -Mailing Addresses<br>
-                                -Password<br>
-                                - Gender<br><br>
+                                ° Name / Username<br>
+                                ° Phone Numbers<br>
+                                ° Email Addresses<br>
+                                ° Mailing Addresses<br>
+                                ° Password<br>
+                                ° Gender<br><br>
 
                                 We also collect information from mobile devices 
                                 for a better user experience, although these features are completely optional:<br><br>
@@ -75,27 +107,27 @@
                             
                         </section>
 
-                        <section>
+                        <section id="scroll-3">
                             <p @click="show3 = !show3" ><b>How Do We Use The Information We Collect?  <img src="../assets/arrow.png" class="arrow" :class="show3 ? 'rotate' : 'rotateBack'" ></b></p><br>
                             <transition name="dropDown" mode="out-in" appear >
                                 <p v-show="show3">
                                 Any of the information we collect from you may be used in one of the following ways:<br><br>
 
-                                -To personalize your experience (your information helps us to better respond to your individual needs)<br>
-                                -To improve our app (we continually strive to improve our app offerings based on the information and feedback we receive from you)<br>
-                                -To improvee customer service (your information helps us to more effectively respond to your customer service requests and support needs)<br>
-                                -To process transactions<br>
-                                - Enabling you to participate in promotions, competitions and surveys.<br>
-                                - Complying with our legal obligations, including verifying your identity where necessary.<br>
-                                - Detecting fraud.<br>
-                                -To administer a contest, promotion, survey or other site feature<br>
-                                -To send periodic emails<br>
+                                ° To personalize your experience (your information helps us to better respond to your individual needs)<br>
+                                ° To improve our app (we continually strive to improve our app offerings based on the information and feedback we receive from you)<br>
+                                ° To improvee customer service (your information helps us to more effectively respond to your customer service requests and support needs)<br>
+                                ° To process transactions<br>
+                                ° Enabling you to participate in promotions, competitions and surveys.<br>
+                                ° Complying with our legal obligations, including verifying your identity where necessary.<br>
+                                ° Detecting fraud.<br>
+                                ° To administer a contest, promotion, survey or other site feature<br>
+                                ° To send periodic emails<br>
                                 </p>
                             </transition>
                             
                         </section>
 
-                        <section>
+                        <section id="scroll-4">
                             <p @click="show4 = !show4"><b>When does check retail use end user information from third parties?  <img src="../assets/arrow.png" class="arrow" :class="show4 ? 'rotate' : 'rotateBack'" ></b></p><br>
                             <transition name="dropDown" mode="out-in" appear >
                                 <p v-show="show4" >
@@ -110,7 +142,7 @@
                             
                         </section>
 
-                        <section>
+                        <section id="scroll-5">
                             <p @click="show5 = !show5"><b>When does check retail use customer information from third parties?  <img src="../assets/arrow.png" class="arrow" :class="show5 ? 'rotate' : 'rotateBack'" ></b></p><br>
                             <transition name="dropDown" mode="out-in" appear >
                                 <p v-show="show5">
@@ -125,7 +157,7 @@
                             
                         </section>
 
-                        <section>
+                        <section id="scroll-6">
                             <p @click="show6 = !show6"><b>Do we share the information we collect with third parties?  <img src="../assets/arrow.png" class="arrow" :class="show6 ? 'rotate' : 'rotateBack'" ></b></p><br>
                             <transition name="dropDown" mode="out-in" appear >
                                 <p v-show="show6">
@@ -160,7 +192,7 @@
                             
                         </section>
 
-                        <section>
+                        <section id="scroll-7">
                             <p @click="show7 = !show7"><b>Where and when is information collected from customers and end users?    <img src="../assets/arrow.png" class="arrow" :class="show7 ? 'rotate' : 'rotateBack'" ></b></p><br>
                             <transition name="dropDown" mode="out-in" appear >
                                 <p v-show="show7">
@@ -171,7 +203,7 @@
                             
                         </section>
 
-                        <section>
+                        <section id="scroll-8">
                             <p @click="show8 = !show8"><b>How Do We Protect Your Information?   <img src="../assets/arrow.png" class="arrow" :class="show8 ? 'rotate' : 'rotateBack'" ></b></p><br>
                             <transition name="dropDown" mode="out-in" appear >
                                 <p v-show="show8">
@@ -190,7 +222,7 @@
                             
                         </section>
 
-                        <section>
+                        <section id="scroll-9">
                             <p @click="show9 = !show9"><b>Could my information be transferred to other countries?  <img src="../assets/arrow.png" class="arrow" :class="show9 ? 'rotate' : 'rotateBack'" ></b></p><br>
                             <transition name="dropDown" mode="out-in" appear >
                                 <p v-show="show9">
@@ -205,7 +237,7 @@
                             
                         </section>
 
-                        <section>
+                        <section id="scroll-10">
                             <p @click="show10 = !show10"><b>Is the information collected through the check retail Service secure?   <img src="../assets/arrow.png" class="arrow" :class="show10 ? 'rotate' : 'rotateBack'" ></b></p><br>
                             <transition name="dropDown" mode="out-in" appear >
                                 <p v-show="show10">
@@ -222,7 +254,7 @@
                             
                         </section>
 
-                        <p>
+                        <p id="scroll-11">
                             <b class="subHeading">Personnel</b><br><br>
                             If you are a check retail worker or applicant, we collect information you voluntarily provide to us. 
                             We use the information collected for Human Resources purposes in order to administer benefits to workers and 
@@ -235,7 +267,7 @@
                             to such update, correction, change or deletion.
                         </p><br><br>
 
-                        <p>
+                        <p id="scroll-12">
                             <b class="subHeading">Affiliates</b><br><br>
                             We may disclose information (including personal information) about you to our Corporate Affiliates. 
                             For purposes of this Privacy Policy, "Corporate Affiliate" means any person or entity which directly or 
@@ -244,7 +276,7 @@
                             by those Corporate Affiliates in accordance with the terms of this Privacy Policy.
                         </p><br><br>
 
-                        <p>
+                        <p id="scroll-13">
                             <b class="subHeading">Governing Law</b><br><br>
                             This Privacy Policy is governed by the laws of Nigeria without regard to its conflict of laws provision. 
                             You consent to the exclusive jurisdiction of the courts in connection with any action or dispute arising 
@@ -260,20 +292,20 @@
                             significantly affect the use or disclosure of your personal information will mean that you accept those changes.
                         </p><br><br>
 
-                        <p>
+                        <p id="scroll-14">
                             <b class="subHeading">Your Consent</b><br><br>
                             We've updated our Privacy Policy to provide you with complete transparency into what is being set 
                             when you visit our site and how it's being used. By using our app, registering an account, or 
                             making a purchase, you hereby consent to our Privacy Policy and agree to its terms.
                         </p><br><br>
 
-                        <p>
+                        <p id="scroll-15">
                             <b class="subHeading">Payment Details</b><br><br>
                             In respect to any credit card or other payment processing details you have provided us, 
                             we commit that this confidential information will be stored in the most secure manner possible.
                         </p><br><br>
 
-                        <p>
+                        <p id="scroll-16">
                             <b class="subHeading">Kids' Privacy</b><br><br>
                             We collect information from kids under the age of 13 just to better our services. 
                             If You are a parent or guardian and You are aware that Your child has provided Us 
@@ -282,7 +314,7 @@
                             parental consent, We take steps to remove that information from Our servers.
                         </p><br><br>
 
-                        <p>
+                        <p id="scroll-17">
                             <b class="subHeading">Changes To Our Privacy Policy</b><br><br>
                             We may change our Service and policies, and we may need to make changes to this Privacy 
                             Policy so that they accurately reflect our Service and policies. Unless otherwise required by law, 
@@ -292,7 +324,7 @@
                             to agree to this or any updated Privacy Policy, you can delete your account.
                         </p><br><br>
 
-                        <p>
+                        <p id="scroll-18">
                             <b class="subHeading">Third-Party Services</b><br><br>
                             We may display, include or make available third-party content (including data, information, 
                             applications and other products services) or provide links to third-party websites or services 
@@ -306,9 +338,9 @@
                             access and use them entirely at your own risk and subject to such third parties' terms and conditions.
                         </p><br><br>
 
-                        <p>
+                        <p id="scroll-19">
                             <b class="subHeading">Tracking Technologies</b><br><br>
-                            -Google Maps API:<br><br>
+                            ° Google Maps API:<br><br>
 
                             Google Maps API is a robust tool that can be used to create a custom map, a searchable map, check-in functions, 
                             display live data synching with location, plan routes, or create a mashup just to name a few.
@@ -316,7 +348,7 @@
                             Google Maps API collects information that is held in accordance with its Privacy Policy
                         </p><br><br>
 
-                        <p>
+                        <p id="scroll-20">
                             <b class="subHeading">What is personal data?</b><br><br>
                             Any data that relates to an identifiable or identified individual. GDPR covers a broad 
                             spectrum of information that could be used on its own, or in combination with other pieces of 
@@ -325,27 +357,27 @@
                             IP addresses, physical address, sexual orientation, and ethnicity.
                         </p><br><br>
 
-                        <p>
+                        <p id="scroll-21">
                             <b class="subHeading">The Data Protection Principles include requirements such as:</b><br><br>
-                                -Personal data collected must be processed in a fair, legal, and transparent way and should only be used in a way that a person would reasonably expect.<br>
-                                -Personal data should only be collected to fulfil a specific purpose and it should only be used for that purpose. Organizations must specify why they need the personal data when they collect it.<br>
-                                -Personal data should be held no longer than necessary to fulfil its purpose.<br>
-                                -People covered by the GDPR have the right to access their own personal data. They can also request a copy of their data, and that their data be updated, deleted, restricted, or moved to another organization.<br>
+                                ° Personal data collected must be processed in a fair, legal, and transparent way and should only be used in a way that a person would reasonably expect.<br>
+                                ° Personal data should only be collected to fulfil a specific purpose and it should only be used for that purpose. Organizations must specify why they need the personal data when they collect it.<br>
+                                ° Personal data should be held no longer than necessary to fulfil its purpose.<br>
+                                ° People covered by the GDPR have the right to access their own personal data. They can also request a copy of their data, and that their data be updated, deleted, restricted, or moved to another organization.<br>
                         </p><br><br>
 
-                        <p>
+                        <p id="scroll-22">
                             <b class="subHeading">Contact Us</b>
                             Don't hesitate to contact us if you have any questions.<br><br>
 
-                            -Via Email:  <b>hello.paddle@gmail.com</b><br><br>
-                            -Via Phone Number:  <b>08149734622</b>
+                            ° Via Email:  <b>hello.paddle@gmail.com</b><br><br>
+                            ° Via Phone Number:  <b>08149734622</b>
                         </p><br><br>
 
 
 
                     </div>
                 </div>
-                <div class="col-md-1"></div>
+                <div class="col-md-0"></div>
             </div>
         </div>
     </div>
@@ -385,13 +417,33 @@
 .header h1 {
     font-weight: bolder;
 }
+.header h1:nth-child(2) {
+    border-bottom: 2px solid red;
+    border-top: 2px solid red;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
 .header h1:nth-child(3) {
     font-weight: bolder;
     color: black;
-    margin-top: 150px;
+    margin-top: 100px;
+}
+.content {
+    text-align: left;
+    padding: 40px;
+    background-color: rgb(241, 241, 241);
+    border: 1px solid rgb(228, 228, 228);
+    margin: 40px 0px 40px 0px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: brown;
 }
 .subHeading {
-    color: rgb(175, 5, 5);
+    color: rgb(199, 6, 6);
 }
 .body p {
     font-size: 16px;
@@ -402,7 +454,7 @@
     font-weight: 700;
     font-family: poppins;
 }
-.col-md-10 {
+.col-md-12 {
     text-align: center;
     padding: 40px;
 }
@@ -474,7 +526,7 @@ section p:nth-child(1):hover {
         display: flex;
         overflow-x: hidden;
     }
-    .col-md-10{
+    .col-md-12{
         overflow-x: hidden;
         padding: 22px;
     }
@@ -494,7 +546,7 @@ section p:nth-child(1):hover {
 
     }
     .body p {
-        font-size: 16px;
+        font-size: 14px;
         /* font-weight: 4; */
         text-align: left;
         /* width: 280px; */
